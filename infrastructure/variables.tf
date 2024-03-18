@@ -43,5 +43,4 @@ variable "min_size" {
 variable "dbpassword" {
   description = "Password for RDS DB (Wordpress deployment)"
   type        = string
-  default     = "password"
 }
