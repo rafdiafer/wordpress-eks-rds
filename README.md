@@ -17,7 +17,7 @@ The following variables need to be defined:
 | Variables     | Default Value | Description  |
 | ------------- |:-------------:| :-----|
 | aws_region      | eu-central-1 | AWS region for the infrastructure deployment |
-| aws_profile      |  -      |   AWS Profile |
+| aws_profile      |  default      |   AWS Profile |
 | app_name | phoenix      |    The name of the App |
 
 The following commands need to be executed for these services to be provisioned:
@@ -89,4 +89,4 @@ The reused code is the following:
 
 ## Progress
 
-Regarding the 1h slot, I was able to fulfill the Part 1 and 2 of the task, taking into account the well-structured project, Services folder, and everything to make it work; and leaving out of that 1 hour some troubleshooting and the documentation.
+Regarding the 1h slot, I was able to fulfill the Part 1 and 2 of the task, taking into account the structured project, Services folder, and everything to make it work; and leaving out of that 1 hour some planning, some troubleshooting and the documentation.
