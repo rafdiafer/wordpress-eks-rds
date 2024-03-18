@@ -87,6 +87,12 @@ The reused code is the following:
 | ------------- |:-----|
 | lb_hostname      | Load Balancer hostname to connect to the Wordpress app |
 
+To add the Kubeconfig directly to your AWS CLI configuration, please execute the following command:
+
+```bash
+$ aws eks update-kubeconfig --name {cluster_name} --profile {profile_name}
+```
+
 ## Progress
 
 Regarding the 1h slot, I was able to fulfill the Part 1 and 2 of the task, taking into account the structured project, Services folder, and everything to make it work; and leaving out of that 1 hour some planning, some troubleshooting and the documentation.
